@@ -39,3 +39,13 @@ for letra in chave:
         senha = senha + "14"
     elif letra in "Ff":
         senha = senha + "15"
+    elif letra in "Rr":
+        senha = senha + "#"
+    elif letra in "Ss":
+        senha = senha + "@"
+    elif letra in "Mm":
+        senha = senha + "%"
+    elif letra in "Nn":
+        senha = senha + "!"
+    else: senha = senha + letra
+print(senha)
