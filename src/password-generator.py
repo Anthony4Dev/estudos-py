@@ -50,7 +50,7 @@ for letra in chave:
     else: senha = senha + letra
 print(senha)
 """
-### Começo dos estudos
+# Começo dos estudos
 
 """ para ver o numero de caracteres de uma frase
 print("Hello World !")
@@ -58,3 +58,37 @@ x = 5
 y = "Hello World !"
 
 print(len(y))"""
+
+"""comando para pegar qualter letra da string
+
+print(txt[0])
+
+"""
+
+"""comando para retonar a string sem espaço em branco entre uma frase e outra
+
+txt= "Hello World "
+x= txt.strip()
+
+"""
+
+""" Para deixar o texto em maiusculo
+
+txt = "Hello World"
+txt = txt.upper()
+
+"""
+
+""" Para deixar o texto em minusculo
+
+txt = "Hello World"
+txt = txt.lower()
+
+"""
+
+""" para trocar as letras
+
+txt = "Hello World"
+txt = txt.REPLACE("H", "J")
+
+"""
