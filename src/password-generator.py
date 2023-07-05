@@ -21,7 +21,7 @@ hex
 14=E
 15=F
 
-"""
+
 
 chave = input("Digite como você quer a sua senha: ")
 
@@ -49,3 +49,12 @@ for letra in chave:
         senha = senha + "!"
     else: senha = senha + letra
 print(senha)
+"""
+### Começo dos estudos
+
+""" para ver o numero de caracteres de uma frase
+print("Hello World !")
+x = 5 
+y = "Hello World !"
+
+print(len(y))"""
